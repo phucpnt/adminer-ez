@@ -21,7 +21,7 @@ function tablesFilter(value) {
 	}
 }
 </script>
-<p class="jsonly"><input onkeyup="tablesFilter(this.value);">
+<p class="jsonly"><input placeholder="Table filter..." onkeyup="tablesFilter(this.value);">
 <?php
 		echo "<p id='tables' onmouseover='menuOver(this, event);' onmouseout='menuOut(this);'>\n";
 		foreach ($tables as $table => $type) {
