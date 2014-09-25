@@ -13,3 +13,8 @@ This adminer version is suitable for localhost development. It already implement
 * JSON viewer with support click to expand/collapsed
 * Table schema alter log to file.sql
 * More will come...
+
+### How to use?
+
+Just copy & download all files under directory in localhost. And you are good to go :).
+Cheers
