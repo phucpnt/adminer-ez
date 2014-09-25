@@ -47,7 +47,7 @@ function adminer_object() {
   $plugins = array(
     // specify enabled plugins here
 		new AdminerEzHead,
-    new AdminerTablesFilter,
+    new AdminerEzTablesTree,
 		new AdminerJsonViewerColumn,
   );
 
