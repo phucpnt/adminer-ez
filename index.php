@@ -46,8 +46,9 @@ function adminer_object() {
 
   $plugins = array(
     // specify enabled plugins here
+		new AdminerEzHead,
     new AdminerTablesFilter,
-    new AdminerJsonColumn,
+		new AdminerJsonViewerColumn,
   );
 
   if (AdminerExtend::isDevHost($hostname)) {
