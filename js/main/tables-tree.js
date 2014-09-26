@@ -65,6 +65,7 @@
 			var select = document.createElement('a');
 			select.text = 'Select';
 			select.href = table.url_select;
+			select.classList.add('table-select');
 
 			var structure = document.createElement('a');
 			structure.text = table.table_name;

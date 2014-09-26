@@ -782,6 +782,7 @@ label {
   z-index: 1;
   background: #f4f8fd;
   padding-right: .5em;
+  min-width: 100%;
 }
 .ez-tables-tree .ez-tree-view a:visited {
   color: blue;
