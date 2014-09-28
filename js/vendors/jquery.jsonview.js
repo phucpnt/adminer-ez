@@ -88,7 +88,7 @@
       }
       if (hasContents) {
         collapsible = level === 0 ? '' : ' collapsible';
-        return "[<ul class=\"array level" + level + collapsible + "\">" + output + "</ul>]";
+        return "[<span class=\"array count\">("+array.length+")</span><ul class=\"array level" + level + collapsible + "\">" + output + "</ul>]";
       } else {
         return '[ ]';
       }

@@ -509,6 +509,7 @@ input[type=button] {
 	font-weight: bold;
 	margin-bottom: 5px;
 	transition: background .4s ease;
+  border-radius: 3px;
 }
 
 input[type=submit][disabled],
@@ -571,6 +572,13 @@ label {
 
 #form > p {
 	margin-bottom: 15px;
+}
+#form{
+  tr{
+    &:nth-child(even){
+      background: #efefef;
+    }
+  }
 }
 
 #schema .table {
@@ -688,8 +696,15 @@ label {
 	}
 }
 
+.adez-json-viewer{
+  background: #e1e1e1;
+}
+
 .ez-tables-tree{
 	position:relative;
+  .ez-table-search{
+    width:100%;
+  }
 	.ez-tree-view{
 		padding-left: .5em;
 		overflow: hidden;

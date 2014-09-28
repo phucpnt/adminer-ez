@@ -619,6 +619,7 @@ input[type=button] {
   font-weight: bold;
   margin-bottom: 5px;
   transition: background .4s ease;
+  border-radius: 3px;
 }
 input[type=submit][disabled],
 input[type=button][disabled] {
@@ -670,6 +671,9 @@ label {
 }
 #form > p {
   margin-bottom: 15px;
+}
+#form tr:nth-child(even) {
+  background: #efefef;
 }
 #schema .table {
   padding: 6px;
@@ -769,8 +773,14 @@ label {
     margin: 0;
   }
 }
+.adez-json-viewer {
+  background: #e1e1e1;
+}
 .ez-tables-tree {
   position: relative;
+}
+.ez-tables-tree .ez-table-search {
+  width: 100%;
 }
 .ez-tables-tree .ez-tree-view {
   padding-left: .5em;
